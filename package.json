@@ -1,0 +1,20 @@
+{
+  "name": "etcd-mock",
+  "version": "0.9.0",
+  "description": "Etcd mock",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rysenko/etcd-mock"
+  },
+  "scripts": {
+    "prepublish": "babel -d lib/ src/"
+  },
+  "dependencies": {
+    "r-promisify": "~0.0.3"
+  }
+}
